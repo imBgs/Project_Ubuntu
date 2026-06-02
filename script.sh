@@ -38,11 +38,11 @@ cp background.png /usr/share/backgrounds/warty-final-ubuntu.png
 cp background.png /usr/share/backgrounds/ubuntu-wallpaper-d.png
 
 # Wallpaper Lockscreen
-cp Lscreen.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
+cp lockscreen.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
 
 # Booting Logo & Watermark
-cp waltuhmark.png /usr/share/plymouth/themes/spinner/watermark.png
-cp loco.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png
+cp watermark.png /usr/share/plymouth/themes/spinner/watermark.png
+cp logo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png
 
 # Update sistem agar perubahan boot tampil
 update-initramfs -u
