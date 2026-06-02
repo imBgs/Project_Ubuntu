@@ -82,7 +82,7 @@ cp Lscreen.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
 
 # Boot Logo (Plymouth)
 cp Wmark.png /usr/share/plymouth/themes/spinner/watermark.png
-cp Logo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png
+cp logo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png
 update-initramfs -u
 
 # -----------------------------------------------------------------------------
