@@ -4,9 +4,6 @@
 # Dijalankan di dalam chroot environment Cubic
 # =============================================================================
 
-# Pastikan script membaca file dari direktori tempat ia disimpan
-cd "$(dirname "$(readlink -f "$0")")"
-
 # Mencegah interaksi "Yes/No" selama instalasi
 export DEBIAN_FRONTEND=noninteractive
 
